@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('kkk') {
       steps {
         echo 'hhh'
       }
