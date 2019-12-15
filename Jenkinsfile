@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'cmd'
-    }
-
-  }
+  agent any
   stages {
     stage('error') {
       steps {
