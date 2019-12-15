@@ -1,11 +1,11 @@
 pipeline {
   agent any
-  stages {
-    stage('error') {
-      steps {
-        sh 'cd "yo mama"'
-      }
-    }
-
+   stages {
+        stage('Build') {
+            steps {
+                bat 'set'
+            }
+        }
+   }
   }
 }
