@@ -1,7 +1,12 @@
 pipeline {
-  agent none
+  agent {
+    node {
+      label 'cmd'
+    }
+
+  }
   stages {
-    stage('') {
+    stage('error') {
       steps {
         sh 'cd "yo mama"'
       }
